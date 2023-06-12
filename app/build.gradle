@@ -47,6 +47,8 @@ repositories {
     maven {
         url "$storageUrl/download.flutter.io"
     }
+    google()
+    mavenCentral()
 }
 
 dependencies {
